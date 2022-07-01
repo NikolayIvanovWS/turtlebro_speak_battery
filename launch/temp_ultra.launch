@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find base_ros)/launch/temp_topic_publisher.launch" />
+    
+    <include file="$(find base_ros)/launch/temp_topic_subscriber.launch" />
+
+</launch>

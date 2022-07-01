@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="base_ros" type="temp_topic_publisher.py" name="temp_topic_publisher" output="screen" respawn="false">
+        <param name="my_integer" type="int" value="2" />
+        <param name="my_float" type="double" value="3.14" />
+        <param name="my_string" type="str" value="hello" />
+    </node>
+</launch>
