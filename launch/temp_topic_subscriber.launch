@@ -1,4 +1,4 @@
 <launch>
-    <node pkg="base_ros" type="temp_topic_subscriber.py" name="temp_subscriber" output="screen" respawn="false">
+    <node pkg="turtlebro_speak_battery" type="temp_topic_subscriber.py" name="temp_subscriber" output="screen" respawn="false">
     </node>
 </launch>

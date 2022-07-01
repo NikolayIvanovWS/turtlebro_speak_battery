@@ -1,4 +1,4 @@
 <launch>
-    <node pkg="base_ros" type="battery.py" name="battery_state" output="screen" respawn="false">
+    <node pkg="turtlebro_speak_battery" type="battery.py" name="battery_state" output="screen" respawn="false">
     </node>
 </launch>

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(base_ros)
+project(turtlebro_speak_battery)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -122,7 +122,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/base_ros.cpp
+#   src/${PROJECT_NAME}/turtlebro_speak_battery.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -133,7 +133,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/base_ros_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/turtlebro_speak_battery_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -215,7 +215,7 @@ install(DIRECTORY
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_base_ros.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_turtlebro_speak_battery.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
